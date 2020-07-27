@@ -1,5 +1,6 @@
 module MyExample2
 
-# Write your package code here.
+include("extra_file.jl")
+
 
 end
