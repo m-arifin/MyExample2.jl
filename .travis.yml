@@ -4,8 +4,13 @@ notifications:
   email: false
 julia:
   - 1.0
-  - 1.4
+  - 1.1
+  - 1.2
   - nightly
+matrix:
+  allow_failures:
+    - julia: nightly
+  fast_finish: true
 os:
   - linux
   - osx
